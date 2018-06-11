@@ -15,6 +15,7 @@ public class slimeController : MonoBehaviour {
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        InvokeRepeating("Flip", 0.8f, 0.9f);
     }
 
     // Update is called once per frame
@@ -35,5 +36,10 @@ public class slimeController : MonoBehaviour {
             rb.velocity = new Vector2(-movementSpeed, rb.velocity.y);
         }
 
+    }
+
+    private void Flip()
+    {
+        moveRight = !moveRight;
     }
 }

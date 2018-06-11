@@ -15,8 +15,11 @@ public class PlayerController : MonoBehaviour {
     private bool grounded;
     private bool doubleJumper;
     private bool facingRight;
-	// Use this for initialization
-	void Start () {
+    private float hz;
+    public Transform laserPoint;
+    public GameObject laser;
+    // Use this for initialization
+    void Start () {
         facingRight = true;
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
@@ -24,11 +27,13 @@ public class PlayerController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
+      
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundcheckRadius, whatIsGround);
         if (grounded)
-            doubleJumper = false;  
-        float hz = Input.GetAxis("Horizontal");
+            doubleJumper = false;
+
         HandleMovement(hz);
+        
         if (Input.GetKeyDown(KeyCode.UpArrow) && grounded)
             Jumping();
         if (Input.GetKeyDown(KeyCode.UpArrow) && !grounded && !doubleJumper) { 
@@ -37,18 +42,33 @@ public class PlayerController : MonoBehaviour {
         }
         animator.SetBool("grounded", grounded);
         Flip(hz);
-        
-	}
-
-    private void HandleMovement (float horizontal)
-    {
-        rb.velocity = new Vector2(horizontal*movementSpeed, rb.velocity.y);
-        animator.SetFloat("speedH", Mathf.Abs(horizontal));
+        transform.position = new Vector3(Mathf.Clamp(transform.position.x, -1.54f, 102f), Mathf.Clamp(transform.position.y, -6f, 10f), Mathf.Clamp(transform.position.z, -0.039f, -0.039f));
     }
 
-    private void Jumping ()
+    public void HandleMovement (float horizontal)
+    {   
+        rb.velocity = new Vector2(horizontal * movementSpeed, rb.velocity.y);
+        animator.SetFloat("speedH", Mathf.Abs(hz));
+    }
+
+    public void Movement(float horizontal)
     {
-        rb.velocity = new Vector2(rb.velocity.x, jumpHight);
+        hz = horizontal;
+    }
+
+    public void Jumping ()
+    {
+        if (grounded)
+            rb.velocity = new Vector2(rb.velocity.x, jumpHight);
+        else if (!doubleJumper)
+        {
+            rb.velocity = new Vector2(rb.velocity.x, jumpHight);
+            doubleJumper = true;
+        }
+    }
+    public void Fire()
+    {
+        Instantiate(laser, laserPoint.position, laserPoint.rotation);
     }
     private void Flip (float horizontal)
     {

@@ -16,8 +16,10 @@ public class LevelManager : MonoBehaviour {
 	}
     public void RespawnPlayer()
     {
+        LiveManager.leavelive();
         Debug.Log("Player Respawn");
         player.transform.position = currentCheckpoint.transform.position;
+        
 
     }
 }
