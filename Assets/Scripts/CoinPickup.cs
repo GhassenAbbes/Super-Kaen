@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class CoinPickup : MonoBehaviour {
     public int pointsToAdd;
+    public AudioSource coinsound;
     // Use this for initialization
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.name == "Player")
         {
             ScoreManager.AddPoints(pointsToAdd);
+            coinsound.Play();
             Destroy(gameObject);
+            
         }
     }
 }

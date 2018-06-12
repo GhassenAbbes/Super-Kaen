@@ -58,6 +58,8 @@ public class PlayerController : MonoBehaviour {
 
     public void Jumping ()
     {
+        GetComponent<AudioSource>().Play();
+
         if (grounded)
             rb.velocity = new Vector2(rb.velocity.x, jumpHight);
         else if (!doubleJumper)
