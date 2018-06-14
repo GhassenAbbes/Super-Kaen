@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour {
     private float hz;
     public Transform laserPoint;
     public GameObject laser;
+    public AudioSource mvmntsound;
     // Use this for initialization
     void Start () {
         facingRight = true;
@@ -53,6 +54,7 @@ public class PlayerController : MonoBehaviour {
 
     public void Movement(float horizontal)
     {
+        mvmntsound.Play();
         hz = horizontal;
     }
 
