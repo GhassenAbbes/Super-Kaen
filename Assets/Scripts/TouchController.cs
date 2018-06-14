@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class TouchController : MonoBehaviour {
-
+    public AudioClip sound;
     private PlayerController theplayer;
     public GameObject PauseUI;
     private bool pause;
