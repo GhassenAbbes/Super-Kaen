@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class LevelManager : MonoBehaviour {
-    //public AudioSource playerdeath;
+    public AudioClip playerdeath;
     public GameObject currentCheckpoint;
     private PlayerController player;
 	// Use this for initialization
@@ -19,7 +19,9 @@ public class LevelManager : MonoBehaviour {
     {
         LiveManager.leavelive();
         Debug.Log("Player Respawn");
-        //playerdeath.Play();
+        
+        //AudioSource aus = new AudioSource();
+        //aus.PlayOneShot(playerdeath);
         player.transform.position = currentCheckpoint.transform.position;
         
 

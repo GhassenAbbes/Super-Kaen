@@ -46,6 +46,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\FREE Footsteps System\scripts\CameraFollow.cs" />
+     <Compile Include="Assets\FREE Footsteps System\scripts\CameraView.cs" />
+     <Compile Include="Assets\FREE Footsteps System\scripts\CharacterFootsteps.cs" />
+     <Compile Include="Assets\FREE Footsteps System\scripts\DemoUI.cs" />
+     <Compile Include="Assets\FREE Footsteps System\scripts\FirstPersonController.cs" />
+     <Compile Include="Assets\FREE Footsteps System\scripts\FootstepTrigger.cs" />
+     <Compile Include="Assets\FREE Footsteps System\scripts\SurfaceManager.cs" />
+     <Compile Include="Assets\FREE Footsteps System\scripts\TopDownController.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\Checkpoint.cs" />
      <Compile Include="Assets\Scripts\ClickSoundMenu.cs" />

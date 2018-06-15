@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class TouchController : MonoBehaviour {
-    public AudioClip sound;
+    public AudioSource sound;
     private PlayerController theplayer;
     public GameObject PauseUI;
     private bool pause;
@@ -15,14 +15,19 @@ public class TouchController : MonoBehaviour {
 	}
 	
 	public void LeftArrow() {
+        theplayer.moving = true;
         theplayer.Movement(-1);
     }
     public void RightArrow()
     {
+        theplayer.moving = true;
+
         theplayer.Movement(1);
     }
     public void ResetMove()
     {
+        theplayer.moving = false;
+
         theplayer.Movement(0);
     }
     public void Jump()
@@ -39,13 +44,15 @@ public class TouchController : MonoBehaviour {
 
     {
         onPause();
+
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void onPause()
     {
+        sound.Play();
+
         pause = !pause;
-        
         if (!pause)
         {
             PauseUI.SetActive(pause);
