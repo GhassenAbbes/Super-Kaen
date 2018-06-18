@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 4c0742d39cc68304d9c3f2a1ec92b809
+timeCreated: 1529065263
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Blaster
+  fontNames:
+  - Blaster
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 0ec6d8b2f0339d247b7123c8a20544ff, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 4e69e6da80cea154092e3886430c032d
+timeCreated: 1529065263
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Buka Bird
+  fontNames:
+  - Buka Bird
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

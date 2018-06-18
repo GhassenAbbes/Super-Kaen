@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: cefe7887292d78b41a12278a8a8b948f
+timeCreated: 1529065265
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Gunship Academy
+  fontNames:
+  - Gunship Academy
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

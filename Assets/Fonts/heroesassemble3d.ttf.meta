@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: d7469483352df374f80b8fdf42f6eeea
+timeCreated: 1529065266
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Heroes Assemble 3D
+  fontNames:
+  - Heroes Assemble 3D
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

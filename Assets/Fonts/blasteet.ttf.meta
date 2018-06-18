@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: e448cc8a7efbd4e4b83417e60fb1a8bf
+timeCreated: 1529065266
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Blaster Eternal
+  fontNames:
+  - Blaster Eternal
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 68c1165238ff4784ead22ed8aa9858f5, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

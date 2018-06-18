@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 8cb69865aa938954d93448cf3d843dfb
+timeCreated: 1529065264
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Heroes Assemble Bold Expandtalic
+  fontNames:
+  - Heroes Assemble Bold Expandtalic
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

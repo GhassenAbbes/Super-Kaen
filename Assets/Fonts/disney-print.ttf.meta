@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: c38f4a246d7827e45aca5d80b781ef70
+timeCreated: 1529065265
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Disney Print
+  fontNames:
+  - Disney Print
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

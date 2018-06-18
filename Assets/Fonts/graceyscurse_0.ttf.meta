@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 3a7bbcd023072f545939432b83914a38
+timeCreated: 1529065783
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Gracey's Curse
+  fontNames:
+  - Gracey's Curse
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a37c68252c63e7848b725ab296fbac3e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

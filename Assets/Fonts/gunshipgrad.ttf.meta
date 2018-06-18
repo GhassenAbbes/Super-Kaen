@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 3859f40d6036d4a42b72dbd0adf52e62
+timeCreated: 1529065263
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Gunship Gradient
+  fontNames:
+  - Gunship Gradient
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

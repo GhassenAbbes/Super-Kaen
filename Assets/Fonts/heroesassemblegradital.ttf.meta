@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: a3c71b16eb1c0e546b4697c657cefa3c
+timeCreated: 1529065265
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Heroes Assemble Gradient Italic
+  fontNames:
+  - Heroes Assemble Gradient Italic
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

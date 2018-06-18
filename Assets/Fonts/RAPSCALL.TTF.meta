@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 3c3a842360c1ddb47955d19800a8ba40
+timeCreated: 1529065263
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Rapscallion
+  fontNames:
+  - Rapscallion
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

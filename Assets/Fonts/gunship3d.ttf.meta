@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 02f2c98a330e5534cb57813adae97ca3
+timeCreated: 1529065261
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Gunship 3D
+  fontNames:
+  - Gunship 3D
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

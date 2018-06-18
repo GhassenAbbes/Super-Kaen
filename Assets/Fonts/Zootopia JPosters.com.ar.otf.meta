@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 6338c791381f6c94a9652215daff4ba1
+timeCreated: 1529065263
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Zootopia JPosters.com.ar
+  fontNames:
+  - Zootopia JPosters.com.ar
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

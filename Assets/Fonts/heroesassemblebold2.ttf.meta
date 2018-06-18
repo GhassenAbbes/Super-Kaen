@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: cfde32a06fe54804abe775661153b9ca
+timeCreated: 1529065266
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Heroes Assemble Bold
+  fontNames:
+  - Heroes Assemble Bold
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

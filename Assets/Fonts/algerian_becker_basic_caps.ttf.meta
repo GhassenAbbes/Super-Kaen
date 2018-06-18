@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 91721f32eec1e8b4ba525256c11c3beb
+timeCreated: 1529065783
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Algerian Becker Basic Caps
+  fontNames:
+  - Algerian Becker Basic Caps
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

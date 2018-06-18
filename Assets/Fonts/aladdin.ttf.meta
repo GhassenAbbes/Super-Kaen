@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: aad863f5e13783f4eb788020a5d68fa4
+timeCreated: 1529065265
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Aladdin
+  fontNames:
+  - Aladdin
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: a303da9d90ddea74e8f202ae65b6268c
+timeCreated: 1529065264
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Mickey Mousebats
+  fontNames:
+  - Mickey Mousebats
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

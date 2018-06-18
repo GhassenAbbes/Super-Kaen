@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 2534434fae05b8c438973c1187ddee75
+timeCreated: 1529065262
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: AL Cinderella
+  fontNames:
+  - AL Cinderella
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

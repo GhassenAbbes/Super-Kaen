@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 9fb973d764a6841419451aa9bda59907
+timeCreated: 1529065264
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Blaster Infinite
+  fontNames:
+  - Blaster Infinite
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 71ab2195e23281443b2867d2cc507cb4, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: c3339ff28b3f34f4f9d08cea94bdddd8
+timeCreated: 1529065265
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Lion kinG
+  fontNames:
+  - Lion kinG
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: f86eb48e53447f543ba625b8de7fa3b8
+timeCreated: 1529065266
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Heroes Assemble Academy Italic
+  fontNames:
+  - Heroes Assemble Academy Italic
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

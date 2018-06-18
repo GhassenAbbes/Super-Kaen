@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: f569fc8b84e6e4242bb3f2a79d0e9a22
+timeCreated: 1529065266
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Denmark
+  fontNames:
+  - Denmark
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 222d142176d974742b8f87dec909f1bb
+timeCreated: 1529065262
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Gunship 3D Italic
+  fontNames:
+  - Gunship 3D Italic
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

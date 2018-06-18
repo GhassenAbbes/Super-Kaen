@@ -7,12 +7,16 @@ public class TouchController : MonoBehaviour {
     public AudioSource sound;
     private PlayerController theplayer;
     public GameObject PauseUI;
+    public string levelname;
+    public GameObject ObjectifUI;
     private bool pause;
 	// Use this for initialization
 	void Start () {
         theplayer = FindObjectOfType<PlayerController>();
         pause = false;
-	}
+        if (!SceneManager.GetActiveScene().name.Equals("MenuUI"))
+          Time.timeScale = 0;
+    }
 	
 	public void LeftArrow() {
         theplayer.moving = true;
@@ -41,10 +45,18 @@ public class TouchController : MonoBehaviour {
     }
 
     public void Restart()
-
     {
         onPause();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 
+    public void CallLevel()
+    {
+        SceneManager.LoadScene(levelname);
+    }
+    
+    public void RestartE()
+    {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
@@ -62,5 +74,11 @@ public class TouchController : MonoBehaviour {
             PauseUI.SetActive(pause);
             Time.timeScale = 0;
         }
+    }
+
+    public void onPauseO()
+    {
+        ObjectifUI.SetActive(pause);
+        Time.timeScale = 1;
     }
 }

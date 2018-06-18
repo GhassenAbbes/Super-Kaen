@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 0518a4fe82baba744944c5d66cea3437
+timeCreated: 1529065262
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Shadowed Serif
+  fontNames:
+  - Shadowed Serif
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

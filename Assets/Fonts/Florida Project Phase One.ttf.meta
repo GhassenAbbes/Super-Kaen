@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: b56ad50bbc35c124fb92bfc57155cca9
+timeCreated: 1529065265
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: FloridaProject
+  fontNames:
+  - FloridaProject
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 1ef5bdb0dd04b2f4d9d00819b825d71d, type: 3}
+  - {fileID: 12800000, guid: 98449ff95095337428ec7b4023d00f2f, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

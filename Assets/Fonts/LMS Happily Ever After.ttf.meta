@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: ac81bd26b6ca6be49913ab0720b215d5
+timeCreated: 1529065265
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: LMS Happily Ever After
+  fontNames:
+  - LMS Happily Ever After
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

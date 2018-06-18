@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: ebfcd2693b7685f4aa641222bc419281
+timeCreated: 1529065783
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Space Station 77
+  fontNames:
+  - Space Station 77
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: f38b2fbc328a4284bb5a7f3b470413a0, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
