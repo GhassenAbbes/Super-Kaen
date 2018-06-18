@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.Advertisements;
 public class KillPlayer : MonoBehaviour {
-    //public AudioSource playerdeath;
+    public AudioSource playerdeath;
     private LevelManager levelmanager;
 	// Use this for initialization
 	void Start () {
@@ -19,9 +19,14 @@ public class KillPlayer : MonoBehaviour {
     {
         if (other.name == "Player")
         {
-           
+            Debug.Log("Player dead");
+            playerdeath.Play();
             levelmanager.RespawnPlayer();
-            //playerdeath.Play();
+            if (Advertisement.IsReady())
+            {
+                Advertisement.Show();
+            }
+           
         }
     }
 }

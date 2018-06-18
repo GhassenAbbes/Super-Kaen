@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour {
     private float hz;
     public Transform laserPoint;
     public GameObject laser;
-    public AudioSource mvmntsound;
+    //public AudioSource mvmntsound;
     public bool moving { get; set; }
     // Use this for initialization
     void Start () {
@@ -46,10 +46,10 @@ public class PlayerController : MonoBehaviour {
         Flip(hz);
         transform.position = new Vector3(Mathf.Clamp(transform.position.x, -1.54f, 102f), Mathf.Clamp(transform.position.y, -6f, 10f), Mathf.Clamp(transform.position.z, -0.039f, -0.039f));
 
-        if (moving)
-        {
-            mvmntsound.Play();
-        }
+        //if (moving)
+        //{
+        //    mvmntsound.play();
+        //}
     }
 
     public void HandleMovement (float horizontal)
