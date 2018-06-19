@@ -706,12 +706,17 @@ Prefab:
     - target: {fileID: 114970930904682134, guid: 14807467d344e4a41a6316b9fbe2f2b1,
         type: 2}
       propertyPath: fxr
-      value: 92
+      value: 101.5
       objectReference: {fileID: 0}
     - target: {fileID: 114970930904682134, guid: 14807467d344e4a41a6316b9fbe2f2b1,
         type: 2}
       propertyPath: fxl
       value: -1.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 82043418574886952, guid: 14807467d344e4a41a6316b9fbe2f2b1,
+        type: 2}
+      propertyPath: m_Volume
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 14807467d344e4a41a6316b9fbe2f2b1, type: 2}

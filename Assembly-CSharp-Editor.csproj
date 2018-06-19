@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\FREE Footsteps System\scripts\Editor\CustomInspectors.cs" />
      <None Include="Assets\UIpack\Spritesheet\yellowSheet.xml" />
+     <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.64.0.txt" />
      <None Include="Assets\Sprites\Players\license.txt" />
      <None Include="Assets\onscreenControls\license.txt" />
      <None Include="Assets\UIpack\Spritesheet\greenSheet.xml" />
@@ -55,8 +56,10 @@
      <None Include="Assets\UIpack\Spritesheet\greySheet.xml" />
      <None Include="Assets\Sprites\Enemies\enemies_spritesheet.txt" />
      <None Include="Assets\UIpack\Spritesheet\redSheet.xml" />
+     <None Include="Assets\Plugins\Android\GoogleMobileAdsPlugin\AndroidManifest.xml" />
      <None Include="Assets\Sprites\HUD\hud_spritesheet.xml" />
      <None Include="Assets\Sprites\Tiles\tiles_spritesheet.xml" />
+     <None Include="Assets\GoogleMobileAds\Editor\GoogleMobileAdsDependencies.xml" />
      <None Include="Assets\UIpack\license.txt" />
      <None Include="Assets\Sprites\Items\items_spritesheet.xml" />
  <Reference Include="UnityEngine.Advertisements">
@@ -118,6 +121,18 @@
  </Reference>
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.VersionHandlerImpl_v1.2.64.0">
+ <HintPath>C:/Users/USER/Documents/GitHub/UnityEsprit/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.64.0.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.JarResolver_v1.2.64.0">
+ <HintPath>C:/Users/USER/Documents/GitHub/UnityEsprit/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.64.0.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.VersionHandler">
+ <HintPath>C:/Users/USER/Documents/GitHub/UnityEsprit/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.IOSResolver_v1.2.64.0">
+ <HintPath>C:/Users/USER/Documents/GitHub/UnityEsprit/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.64.0.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

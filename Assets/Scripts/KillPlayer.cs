@@ -22,10 +22,10 @@ public class KillPlayer : MonoBehaviour {
             Debug.Log("Player dead");
             playerdeath.Play();
             levelmanager.RespawnPlayer();
-            if (Advertisement.IsReady())
-            {
-                Advertisement.Show();
-            }
+            //if (Advertisement.IsReady())
+            //{
+            //    Advertisement.Show();
+            //}
            
         }
     }

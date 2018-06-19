@@ -1,7 +1,9 @@
-﻿using System;
+﻿using GoogleMobileAds.Api;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Advertisements;
 using UnityEngine.UI;
 
 public class EndGame : MonoBehaviour {
@@ -21,8 +23,14 @@ public class EndGame : MonoBehaviour {
     public GameObject Grade;
     public GameObject Next;
     public GameObject Restart;
+
+    string adUnitId = "ca-app-pub-4640846911906598/1699292382";
+
     // Use this for initialization
     void Start () {
+
+        GameOver();
+        
         Time.timeScale = 0;
         Level.GetComponent<Text>().text = ""+levelname;
         bool success=true;
@@ -57,9 +65,27 @@ public class EndGame : MonoBehaviour {
         Death.GetComponent<Text>().text = DeathGet.GetComponent<Text>().text + "/" + d;
         Timer.GetComponent<Text>().text = TimerGet.GetComponent<Text>().text + "'s/" + t+"'s";
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    private void GameOver()
+    {
+        if (Advertisement.IsReady())
+        {
+            Advertisement.Show();
+        }
+
+        // Initialize the Google Mobile Ads SDK.
+        InterstitialAd interstitial = new InterstitialAd(adUnitId);
+        // Create an empty ad request.
+        AdRequest request = new AdRequest.Builder().Build();
+        // Load the interstitial with the request.
+        interstitial.LoadAd(request);
+        if (interstitial.IsLoaded())
+        {
+            interstitial.Show();
+        }
+    }
+    // Update is called once per frame
+    void Update () {
 		
 	}
 }

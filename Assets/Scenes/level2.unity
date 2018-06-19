@@ -2065,6 +2065,11 @@ Prefab:
       propertyPath: fxl
       value: -1.54
       objectReference: {fileID: 0}
+    - target: {fileID: 82043418574886952, guid: 14807467d344e4a41a6316b9fbe2f2b1,
+        type: 2}
+      propertyPath: m_Volume
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 14807467d344e4a41a6316b9fbe2f2b1, type: 2}
   m_IsPrefabParent: 0
@@ -6081,7 +6086,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4947104479101432, guid: 07a89c79d211dcc4dbd429595bf7e3f8, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 114404342434274224, guid: 07a89c79d211dcc4dbd429595bf7e3f8,
         type: 2}
