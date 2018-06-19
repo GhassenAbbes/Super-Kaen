@@ -26,5 +26,11 @@ public class fly : MonoBehaviour {
             Instantiate(flydead, transform.position, transform.rotation);
             Destroy(gameObject);
         }
+
+        if (other.gameObject.name=="castleHalfly")
+        {
+            Instantiate(flydead, transform.position, transform.rotation);
+            Destroy(gameObject);
+        }
     }
 }

@@ -54,7 +54,13 @@ public class TouchController : MonoBehaviour {
     {
         SceneManager.LoadScene(levelname);
     }
-    
+
+    public void CallMenu()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene("MenuUI");
+    }
+
     public void RestartE()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);

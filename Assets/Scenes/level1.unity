@@ -5515,6 +5515,41 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d2e1cd1f6701bff4aaa2020c80ee2213, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &655076582 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1051667037158912, guid: d2e1cd1f6701bff4aaa2020c80ee2213,
+    type: 2}
+  m_PrefabInternal: {fileID: 655076581}
+--- !u!114 &655076583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 655076582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 287445291}
+          m_MethodName: CallMenu
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
 --- !u!1001 &668880129
 Prefab:
   m_ObjectHideFlags: 0
@@ -14727,6 +14762,10 @@ Prefab:
     - target: {fileID: 4567691761757530, guid: b97cd26e2aa181048b4e4cbc0eab8d45, type: 2}
       propertyPath: m_RootOrder
       value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1316516592625580, guid: b97cd26e2aa181048b4e4cbc0eab8d45, type: 2}
+      propertyPath: m_Name
+      value: Coinpick
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b97cd26e2aa181048b4e4cbc0eab8d45, type: 2}
