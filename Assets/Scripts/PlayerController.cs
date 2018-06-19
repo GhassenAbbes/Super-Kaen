@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour {
     private Rigidbody2D rb;
     private Animator animator;
     public float movementSpeed;
+    public float fxr;
+    public float fxl;
     public float jumpHight;
     public Transform groundCheck;
     public float groundcheckRadius;
@@ -44,7 +46,7 @@ public class PlayerController : MonoBehaviour {
         }
         animator.SetBool("grounded", grounded);
         Flip(hz);
-        transform.position = new Vector3(Mathf.Clamp(transform.position.x, -1.54f, 102f), Mathf.Clamp(transform.position.y, -6f, 10f), Mathf.Clamp(transform.position.z, -0.039f, -0.039f));
+        transform.position = new Vector3(Mathf.Clamp(transform.position.x, fxl, fxr), Mathf.Clamp(transform.position.y, -6f, 10f), Mathf.Clamp(transform.position.z, -0.039f, -0.039f));
 
         //if (moving)
         //{
